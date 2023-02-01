@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@vrbo/pino-rotating-file": "^4.3.1",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "pino": "^8.8.0"
+  },
+  "scripts": {
+    "start": "node bot.js | rotate-logs"
+  },
+  "version": "0.0.0"
+}
