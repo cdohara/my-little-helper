@@ -28,6 +28,7 @@ The `.env` dot file contains the following:
 BOT_TOKEN="The_string_that_is_your_bot_token"
 GUILD_ID=the_numbers_that_is_your_guild
 APPLICATION_ID=the_numbers_that_is_your_app_id
+ADMIN_GROUP=the_role_or_group_that_can_manage_the_bot
 ```
 
 The Guild ID may be found by enabling developer mode on Discord and

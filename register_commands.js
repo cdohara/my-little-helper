@@ -6,6 +6,10 @@ const commands = [
     name: 'ping',
     description: 'Replies with Pong!',
   },
+  {
+    name: 'archive',
+    description: 'Archive a channel by moving it to the archive category.',
+  },
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.BOT_TOKEN);
